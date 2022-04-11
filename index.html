@@ -2,35 +2,17 @@
 <html>
     <head>
         <script src="java.js"></script>
-        <link rel="stylesheet" href="style.css">
+        <title>EVENTOS</title>
     </head>
     <body>
-        <div>
-            <h2>HTML</h2>
-        </div>
-        <div>
-            <p>
-                INCORPORANDO HTML.
-            </p>
-        </div>
-        <div class="galeria">
-            <div>
-                <img src="visuals/mate.png.crdownload" alt="">
-            </div>
-            <div>
-                <img src="visuals/mate2.jpg" alt="">
-            </div>
-            <div>
-                <img src="visuals/mate3.jpg" alt="">
-            </div>
-            <div>
-                <img src="visuals/mate4.jpg" alt="">
-            </div>
-            <div>
-                <img src="visuals/mate5.jpg" alt="">
-            </div>
-        </div>
+      <h2>EVENTOS</h2>
+      <button id="btn1">Click</button>
+      
+      <input type="text" id="nombre">
+      <input type="number" id="edad">
     </body>
-   
-
+    <script>
+        let boton = document.getElementById("btn1")
+        boton.onclick = () => {console.log("click")}
+    </script>
 </html>
